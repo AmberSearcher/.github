@@ -4,7 +4,7 @@ Amber Search is a search engine that aims to be more transparent and community-d
 
 ## How does it work?
 
-Amber Search is a custom search engine that uses a combination of web scraping and search algorithms to find relevant results. It is built using the Go programming language for the scraping, C++ for the backend, and TS/Vue for the frontend.
+Amber Search is a custom search engine that uses a combination of web scraping and search algorithms to find relevant results. It is powered by a custom web crawler written in Go, uses C++ for the database interface, and Vue for static page generation with Go to serve it on the frontend.
 
 The search engine is designed to be as transparent as possible, with all of the source code available on GitHub. We also have a list of all of the sites that we have crawled, which is available on the GitHub page.
 
